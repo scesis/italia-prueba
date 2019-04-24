@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+selector{
+	propiedad: valor;
+	propiedad: valor;
+	propiedad: valor;
+	...
+}
+*/
+/*limpiar estilos del navegador*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+div#wrapper{
+	width: 1024px;
+	height: 2000px;
+	background-color: aquamarine;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav{
+	width: 1024px;
+	height: 80px;
+	background-color: brown;
+}
+a{
+	margin-left: 200px;
+	margin-top: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: bisque;
+	font-weight: 300;
+}
+header{
+	width: 1024px;
+	height: 150px;
+	background-image: url("italy/img/header.png");
+}
+section#historia{
+	width: 1024px;
+	height: 600px;
+	background-color: darksalmon;
+}
+section#galeria {
+	width: 1024px;
+	height: 400px;
+	background-color: darkcyan;	 
+}
+section#atracciones {
+	width: 1024px;
+	height: auto;
+	background-color: darkseagreen;	
+}
+footer{
+	width: 1024px;
+	height: 50px;
+	background-color: black;
+}
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 48px;
+	text-align: center;
+	color: darkred;
+	padding-top: 20px;
+}
+h2{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 36px;
+	font-weight: 200;
+	color: beige;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+section#historia p{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	color: darkgreen;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 20px;
+}
+p{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+scetion#galeria h2{    
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 40px;
+	font-weight: 400;
+	margin-left: 50px;
+	padding-top: 50px;
+
+}
+section#galeria img{
+	margin-top: 50px;
+	margin-left: 24px;
+	border: solid 4px white;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.75);
+	border-radius: 25px;
+}
+section#atracciones h2{
+	font-family: "Gill Sans",  sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	color: aquamarine;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+table{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+table td{
+	width: 300px;
+	border: solid 1px #D91114;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+td.titulo{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	background-color: burlywood;
+	color: coral;
+ }
+td.monto{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+}
+footer h6{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: azure;
+	font-weight: 300;
+	text-align: center;
+}
